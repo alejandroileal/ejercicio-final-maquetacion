@@ -31,7 +31,6 @@ a {
   color: var(--text-color);
 }
 
-/* Tipografías según buenas prácticas */
 h1 {
   font-size: 18px;
   font-weight: 700;
@@ -91,6 +90,8 @@ p {
     opacity: 1;
   }
 }
+
+/*Container Queries*/
 
 @media screen and (min-width: 1024px) {
   .container {
@@ -195,6 +196,8 @@ body:has(.navbar__center-input:checked) .navbar__nav {
   height: 30px;
   width: auto;
 }
+
+/* Navbar Queries*/
 
 @media screen and (min-width: 1024px) {
   .navbar {
@@ -345,6 +348,8 @@ body:has(.navbar__center-input:checked) .navbar__nav {
   transform: scale(1.03);
 }
 
+/*Products section Queries*/
+
 @media screen and (min-width: 768px) {
   .products {
     display: grid;
@@ -421,6 +426,8 @@ body:has(.navbar__center-input:checked) .navbar__nav {
 .slider__item-button:hover {
   background-color: var(--product-background);
 }
+
+/*Slider section queries*/
 
 @media screen and (min-width: 1024px) {
   .slider__list {
@@ -524,6 +531,8 @@ body:has(.navbar__center-input:checked) .navbar__nav {
   color: var(--secondary-color);
 }
 
+/*Footer queries*/
+
 @media screen and (min-width: 768px) {
   .footer__newsletter {
     display: flex;
@@ -558,6 +567,8 @@ p {
   text-align: center;
   padding-block: 0.5rem;
 }
+
+/*Higlight Section Queries*/
 
 @media screen and (min-width: 768px) {
   .highlight {
@@ -634,6 +645,8 @@ p {
   }
 }
 
+/*Store Product Queries*/
+
 @media screen and (min-width: 768px) {
   .store {
     grid-template-columns: repeat(3, 1fr);
@@ -669,6 +682,8 @@ p {
   border: solid 0.8px var(--text-color);
   padding: 0.5rem;
 }
+
+/*Store Aside Section Queries*/
 
 @media screen and (min-width: 1024px) {
   .store-aside {
@@ -729,6 +744,8 @@ p {
   background-color: var(--secondary-color);
   color: var(--background-color);
 }
+
+/*Single Product Section Queries*/
 
 @media screen and (min-width: 768px) {
   .single-product {
@@ -834,6 +851,8 @@ p {
   display: flex;
   align-items: center;
 }
+
+/*Contact Form Queries*/
 
 @media screen and (min-width: 768px) {
   .contact {
@@ -947,6 +966,8 @@ body:has(#popup-close:checked) .popup {
   }
 }
 
+/*Popup Queries*/
+
 @media screen and (min-width: 1024px) {
   .popup__container {
     max-width: 40rem;
@@ -964,6 +985,8 @@ body:has(#popup-close:checked) .popup {
 .index p {
   text-align: start;
 }
+
+/*Index Queries*/
 
 @media screen and (min-width: 1024px) {
   .index {
